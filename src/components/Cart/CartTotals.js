@@ -1,5 +1,5 @@
 import React from 'react';
-import CartItem from "./CartItem";
+//import CartItem from "./CartItem";
 import {Link} from 'react-router-dom';
 export default function CartTotals({value}) {
 	const{cartSubTotal,cartTax,cartTotal,clearCart}=value;
