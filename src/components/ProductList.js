@@ -6,7 +6,7 @@ import {ProductConsumer} from "../context";
 export default class ProductList extends Component {
   
   render() {
-  	//console.log(this.state.products);
+ 
     return (
       <React.Fragment>
       <div className="py-5">

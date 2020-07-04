@@ -165,7 +165,7 @@ addTotals=()=>{
       	removeItem:this.removeItem,
       	clearCart:this.clearCart
       }}>
-      //all child component can access data here
+      
        {this.props.children}
       </ProductContext.Provider>
     );
